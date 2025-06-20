@@ -1,4 +1,5 @@
-
+CREATE DATABASE phone_store
+use phone_store
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) UNIQUE NOT NULL,
